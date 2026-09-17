@@ -68,7 +68,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Vetements et accessoires trail concus pour les longues sorties. Testes en montagne, penses pour durer.</p>",
+            "text": "<p>Vêtements et accessoires trail conçus pour les longues sorties. Testés en montagne, pensés pour durer.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -179,7 +179,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Par categorie</p>",
+                "text": "<p>Par catégorie</p>",
                 "type_preset": "h6",
                 "font": "var(--font-body--family)",
                 "font_size": "0.875rem",
@@ -200,7 +200,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Trouve ton equipement</h2>",
+                "text": "<h2>Trouve ton équipement</h2>",
                 "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "",
@@ -272,10 +272,10 @@
       "name": "t:names.collection_list",
       "settings": {
         "collection_list": [
-          "vetements-hommes",
-          "vetements-femmes",
-          "accessoires-equipement",
-          "sacs-a-dos"
+          "gid://shopify/Collection/587921424648",
+          "gid://shopify/Collection/587921457416",
+          "gid://shopify/Collection/587921490184",
+          "gid://shopify/Collection/587921522952"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
@@ -336,7 +336,7 @@
       },
       "name": "t:names.featured_product",
       "settings": {
-        "product": "sac-ultra-trail-18l-expedition-pro",
+        "product": "gid://shopify/Product/12250227114248",
         "layout": "media-left",
         "background_color": "#f4efe8",
         "padding-block-start": 48,
@@ -548,7 +548,7 @@
               "type": "text",
               "name": "t:names.caption",
               "settings": {
-                "text": "<p>Notre metier</p>",
+                "text": "<p>Notre métier</p>",
                 "type_preset": "h6"
               }
             },
@@ -562,14 +562,14 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Teste sur le terrain, pas en studio.</h3>",
+                    "text": "<h3>Testé sur le terrain, pas en studio.</h3>",
                     "type_preset": "h3"
                   }
                 },
                 "text": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Chaque piece Ascent Gear est developpee avec des coureurs de trail et des randonneurs, puis testee sur plusieurs saisons avant de rejoindre notre catalogue.</p>",
+                    "text": "<p>Chaque pièce Ascent Gear est développée avec des coureurs de trail et des randonneurs, puis testée sur plusieurs saisons avant de rejoindre notre catalogue.</p>",
                     "max_width": "narrow",
                     "type_preset": "rte"
                   }
@@ -605,7 +605,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h3>Acces premier sentier</h3>",
+            "text": "<h3>Accès premier sentier</h3>",
             "width": "100%",
             "alignment": "center"
           }
@@ -613,7 +613,7 @@
         "text_2": {
           "type": "text",
           "settings": {
-            "text": "<p>Alertes nouveautes, restocks et codes promo avant tout le monde.</p>",
+            "text": "<p>Alertes nouveautés, restocks et codes promo avant tout le monde.</p>",
             "type_preset": "paragraph",
             "width": "100%",
             "alignment": "center"
