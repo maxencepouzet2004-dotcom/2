@@ -49,9 +49,9 @@
     "badge_corner_radius": 100,
     "badge_text_transform": "none",
     "primary_button_border_width": 0,
-    "button_border_radius_primary": 14,
+    "button_border_radius_primary": 999,
     "secondary_button_border_width": 1,
-    "button_border_radius_secondary": 14,
+    "button_border_radius_secondary": 999,
     "cart_type": "drawer",
     "cart_price_font": "subheading",
     "show_cart_note": false,
@@ -78,10 +78,10 @@
     "palette_variant_border": "{{ settings.color_palette.color3 }}",
     "color_palette": {
       "background": "#ffffff",
-      "foreground": "#000000",
-      "color1": "#333333",
-      "color2": "#EEF1EA",
-      "color3": "#DFDFDF"
+      "foreground": "#12332a",
+      "color1": "#12332a",
+      "color2": "#f6e3d0",
+      "color3": "#e2d9c9"
     }
   },
   "presets": {
@@ -126,9 +126,9 @@
       "badge_corner_radius": 100,
       "badge_text_transform": "none",
       "primary_button_border_width": 0,
-      "button_border_radius_primary": 14,
+      "button_border_radius_primary": 999,
       "secondary_button_border_width": 1,
-      "button_border_radius_secondary": 14,
+      "button_border_radius_secondary": 999,
       "cart_type": "drawer",
       "cart_price_font": "subheading",
       "show_cart_note": false,
@@ -154,10 +154,10 @@
       "palette_variant_border": "{{ settings.color_palette.color3 }}",
       "color_palette": {
         "background": "#ffffff",
-        "foreground": "#000000",
-        "color1": "#333333",
-        "color2": "#EEF1EA",
-        "color3": "#DFDFDF"
+        "foreground": "#12332a",
+        "color1": "#12332a",
+        "color2": "#f6e3d0",
+        "color3": "#e2d9c9"
       }
     }
   }
