@@ -142,6 +142,201 @@
         "padding-block-end": 72
       }
     },
+    "trust_badges": {
+      "type": "section",
+      "name": "t:names.icons_with_text",
+      "blocks": {
+        "group_1": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": { "icon": "truck", "width": 28, "link": "" }
+            },
+            "group": {
+              "type": "group",
+              "settings": { "gap": 2 },
+              "blocks": {
+                "heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Livraison rapide</h3>",
+                    "type_preset": "h6",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                },
+                "text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Partout en France</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": ["heading", "text"]
+            }
+          },
+          "block_order": ["icon", "group"]
+        },
+        "group_2": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": { "icon": "return", "width": 28, "link": "" }
+            },
+            "group": {
+              "type": "group",
+              "settings": { "gap": 2 },
+              "blocks": {
+                "heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Retours faciles</h3>",
+                    "type_preset": "h6",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                },
+                "text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Sous 30 jours</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": ["heading", "text"]
+            }
+          },
+          "block_order": ["icon", "group"]
+        },
+        "group_3": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": { "icon": "lock", "width": 28, "link": "" }
+            },
+            "group": {
+              "type": "group",
+              "settings": { "gap": 2 },
+              "blocks": {
+                "heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Paiement sécurisé</h3>",
+                    "type_preset": "h6",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                },
+                "text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Checkout Shopify chiffré</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": ["heading", "text"]
+            }
+          },
+          "block_order": ["icon", "group"]
+        },
+        "group_4": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "height": "fit"
+          },
+          "blocks": {
+            "icon": {
+              "type": "icon",
+              "settings": { "icon": "chat_bubble", "width": 28, "link": "" }
+            },
+            "group": {
+              "type": "group",
+              "settings": { "gap": 2 },
+              "blocks": {
+                "heading": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<h3>Support réactif</h3>",
+                    "type_preset": "h6",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                },
+                "text": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>On répond vite</p>",
+                    "type_preset": "rte",
+                    "width": "100%",
+                    "alignment": "center"
+                  }
+                }
+              },
+              "block_order": ["heading", "text"]
+            }
+          },
+          "block_order": ["icon", "group"]
+        }
+      },
+      "block_order": ["group_1", "group_2", "group_3", "group_4"],
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "gap": 16,
+        "section_width": "page-width",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
+    },
     "collection_list_categories": {
       "type": "collection-list",
       "blocks": {
@@ -597,6 +792,236 @@
         "media_height": "60svh"
       }
     },
+    "reviews_section": {
+      "type": "section",
+      "name": "t:names.multicolumn",
+      "blocks": {
+        "header": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 8,
+            "width": "fill",
+            "height": "fit",
+            "padding-block-start": 0,
+            "padding-block-end": 24
+          },
+          "blocks": {
+            "eyebrow": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Ce que disent nos coureurs</p>",
+                "type_preset": "h6",
+                "width": "fit-content",
+                "alignment": "center",
+                "case": "uppercase",
+                "letter_spacing": "0.05em"
+              }
+            },
+            "heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h2>Testé sur le terrain</h2>",
+                "type_preset": "h2",
+                "width": "fit-content",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": ["eyebrow", "heading"]
+        },
+        "cards_row": {
+          "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-start",
+            "gap": 24,
+            "width": "fill",
+            "height": "fit"
+          },
+          "blocks": {
+            "group_1": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "height": "fit",
+            "border": "solid",
+            "border_width": 1,
+            "border_opacity": 15,
+            "border_radius": 16,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {
+            "stars": {
+              "type": "text",
+              "settings": {
+                "text": "<p>★★★★★</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            },
+            "quote": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Le legging tient super bien en montée comme en descente, aucune gêne sur les longues sorties.</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "rte"
+              }
+            },
+            "author": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Coureuse de trail</strong></p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            }
+          },
+          "block_order": ["stars", "quote", "author"]
+        },
+        "group_2": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "height": "fit",
+            "border": "solid",
+            "border_width": 1,
+            "border_opacity": 15,
+            "border_radius": 16,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {
+            "stars": {
+              "type": "text",
+              "settings": {
+                "text": "<p>★★★★★</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            },
+            "quote": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Le sac 18L passe une journée complète sans frotter, les poches sont bien pensées.</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "rte"
+              }
+            },
+            "author": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Coureur d'ultra-trail</strong></p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            }
+          },
+          "block_order": ["stars", "quote", "author"]
+        },
+        "group_3": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "height": "fit",
+            "border": "solid",
+            "border_width": 1,
+            "border_opacity": 15,
+            "border_radius": 16,
+            "padding-block-start": 24,
+            "padding-block-end": 24,
+            "padding-inline-start": 24,
+            "padding-inline-end": 24
+          },
+          "blocks": {
+            "stars": {
+              "type": "text",
+              "settings": {
+                "text": "<p>★★★★★</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            },
+            "quote": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Chaussettes mérinos increvables, même après plusieurs saisons de trail hebdomadaire.</p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "rte"
+              }
+            },
+            "author": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Randonneur</strong></p>",
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              }
+            }
+          },
+          "block_order": ["stars", "quote", "author"]
+            }
+          },
+          "block_order": ["group_1", "group_2", "group_3"]
+        }
+      },
+      "block_order": ["header", "cards_row"],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
     "newsletter_signup": {
       "type": "section",
       "name": "t:names.email_signup",
@@ -643,10 +1068,12 @@
   },
   "order": [
     "hero_jVaWmY",
+    "trust_badges",
     "collection_list_categories",
     "featured_product_apex",
     "product_list_fa6P9H",
     "media_with_content_story",
+    "reviews_section",
     "newsletter_signup"
   ]
 }
